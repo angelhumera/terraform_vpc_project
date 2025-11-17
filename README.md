@@ -46,14 +46,4 @@ Terraform prints IDs for:
 - Route table  
 - NAT Gateway  
 
----
-
-## 📁 **Project Structure**
-terraform-vpc-project/
-│
-├── main.tf # VPC, Subnets, IGW, NAT, Routes
-├── provider.tf # AWS Provider configuration
-├── output.tf # Outputs for resource IDs
-├── variables.tf # Variables (optional)
-└── .gitignore # Terraform ignore files
 
